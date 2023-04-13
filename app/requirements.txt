@@ -1,0 +1,16 @@
+pandas
+numpy
+seaborn
+nltk
+tensorflow
+scikit-learn
+wordcloud
+english-words
+scipy
+streamlit
+mysql-connector-python
+matplotlib
+plotly
+pycountry
+stanza
+facebook-sdk

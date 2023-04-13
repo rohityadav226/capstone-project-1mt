@@ -1,0 +1,25 @@
+---
+version: "3"
+services:
+  1millionteachers_web_app:
+    image: "public.ecr.aws/u4n9v3h4/1milliontechers_web_app_macos:latest"
+    ports:
+      - 8501:8501
+  mysqldb:
+    image: mysql
+    ports:
+      - 3036:3036
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+    volumes:
+      - mysql-data:/var/lib/mysql
+  phpmyadmin:
+    image: phpmyadmin
+    ports:
+      - 8081:80
+    environment:
+      - PMA_HOST=mysqldb
+volumes:
+  mysql-data:
+    driver: local
+
