@@ -2,7 +2,7 @@
 version: "3"
 services:
   1millionteachers_web_app:
-    image: "public.ecr.aws/u4n9v3h4/1milliontechers_web_app_macos:latest"
+    image: "IMAGE LINK REMOVED FOR PRIVACY CONCERNS"
     ports:
       - 8501:8501
   mysqldb:
