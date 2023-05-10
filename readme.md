@@ -1,4 +1,4 @@
-#   Capstone Project (External) - NLP | Sentiment Analysis
+# NLP | Sentiment Analysis
 
 This capstone project aims to gather, examine and present unstructured and imbalanced data from various social media platforms such as Facebook and WhatsApp. A web app will be created to provide stakeholders with a user-friendly experience after analyzing collected data using data science techniques.
 <br>
