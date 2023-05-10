@@ -10,8 +10,8 @@ import datetime
 
 class FacebookScrapper():
     def __init__(self):
-        self.access_token = 'EAAxIqB6IPagBAGiKrToxsJE8CXZAIqh7IJPxQ8aqQfUM9ChY2YPQTZADVfG7P54EBOIH5T3BrFsJE329JWL0NbB9pgPZAS1QgSbS7EHPeSxY9ScWdXulrTE3TuD4ZArZCJnlLEReuQ66lp14ZBPvRRwLDrcE1it3hJUXV9Rj5AYMCjjdxAurBE'
-        self.page_id = '1331516393589936' 
+        self.access_token = 'TOKEN REMOVED FOR PRIVACY CONCERNS'
+        self.page_id = 'PAGE ID REMOVED FOR PRIVACY CONCERNS' 
         self.db = mysql.connector.connect(
             host='mysqldb',
             user='root',
