@@ -29,21 +29,6 @@ checkdb().createdb()
 checkdb().whatsappdb()
 #  ----- DASHBOARD -----
 
-#db = mysql.connector.connect(
-#            host='mysqldb',
-#            user='root',
-#            passwd='password',
-#            database='timestamp',
-#            auth_plugin='mysql_native_password')
-#query = "SELECT * FROM cleaned_data"
-#df = pd.read_sql(query, con=db)
-#word_df = visual_preprocessor().unique_word_count(df, 'reviews')
-#destem_dict = {}
-#for word in list(word_df['word']):
-#    destem_dict[ps.stem(word)] = word
-#rat_1, rat_2, rat_3 = visual_preprocessor().preprocess_data(df)
-
-
 @st.cache_data
 def load_data():
     rat_1 = pd.read_csv('rat_1.csv')
