@@ -1,6 +1,6 @@
 # NLP | Sentiment Analysis
 
-This capstone project aims to gather, examine and present unstructured and imbalanced data from various social media platforms such as Facebook and WhatsApp. A web app will be created to provide stakeholders with a user-friendly experience after analyzing collected data using data science techniques.
+This capstone project aims to gather, examine and present unstructured and imbalanced data from various social media platforms such as Facebook and WhatsApp. A web app is created to provide stakeholders with a user-friendly experience after analyzing collected data using data science techniques.
 <br>
 ### <b>Web Application Flow Chart</b><br>
 <img src="https://github.com/rohityadav226/capstone-project-1mt/blob/master/web_app_flow_chart.png"><br>
